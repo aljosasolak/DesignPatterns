@@ -5,4 +5,5 @@
   Structure: Editor - EditorState - History
 
 ## 2. State patern
-  to be continued
+  Drawing application with three different states of cursor (BrushTool, SelectionTool, Eraser) Canvas class and Tool interface.
+  Stopwatch app as an example of abuse of state pattern where the logic of the method click() which is supposed to change the state of the stopwatch (running <-> stopped) is spread out through many classes and an interface.
